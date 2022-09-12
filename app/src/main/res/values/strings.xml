@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Free Credit Report Check</string>
+    <string name="network_error">Please Check Your Internet …</string>
+    <string name="txtCredits">have been recently Updated.To Continue using our app.Please review and agree to our updated terms.</string>
+    <string name="link1"><u> Terms and Conditions</u> </string>
+    <string name="link2"><u>Privacy Policy</u></string>
+
+</resources>

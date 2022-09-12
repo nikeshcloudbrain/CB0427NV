@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623532363579",
+    "project_id": "free-credit-report-check",
+    "storage_bucket": "free-credit-report-check.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623532363579:android:4ca7dbcd47e63cf680b11e",
+        "android_client_info": {
+          "package_name": "com.creditscore.creditscorecheck.loan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623532363579-8jeik4suni6dshovpdl1g45emhhlkvcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIisBxbdpg9xp6VLSClFpAXXhEi3Tb8Fo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623532363579-8jeik4suni6dshovpdl1g45emhhlkvcn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

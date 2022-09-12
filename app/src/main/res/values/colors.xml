@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#085bff</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="colorMain">#085bff</color>
+    <color name="colorWhite">#fff</color>
+
+    <color name="colorAdButton">#03A9F4</color>
+    <color name="colorAdText">#000</color>
+    <color name="colorDialogAdText">#FFFFFF</color>
+
+    <color name="colorBGNativeStart">#1a085bff</color>
+    <color name="colorBGNativeEnd">#26085bff</color>
+    <color name="background">#DEEFFF</color>
+
+    <color name="shadow_color">#085bff</color>
+    <color name="white">#fff</color>
+
+    <color name="toolbar">#008dff</color>
+    <color name="text">#222731</color>
+
+
+    <color name="black">#ff000000</color>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.CalculatedEmiActivity">
+
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/toolbar_layout" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/include2"
+        android:layout_marginBottom="10dp"
+        >
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/native_ad_normal_small" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:background="@drawable/des_border_bg"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Calculate"
+                android:fontFamily="@font/dmsan_mediam"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/emi_monthly"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Calculate"
+                android:fontFamily="@font/dmsan_mediam"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/total_interest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Calculate"
+                android:fontFamily="@font/dmsan_mediam"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_14sdp" />
+
+            <TextView
+                android:id="@+id/total_payment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/_5sdp"
+                android:text="Calculate"
+                android:fontFamily="@font/dmsan_mediam"
+                android:textColor="@color/colorMain"
+                android:textSize="@dimen/_14sdp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <include layout="@layout/native_ad_banner"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/nativebanner"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content" />
+
+
+</RelativeLayout>
